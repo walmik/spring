@@ -1,5 +1,5 @@
 <div id="footer" class="clearfix">
-		<p class="alignright">&copy; <?php echo date ('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>. <?php printf( __( 'Theme: %1$s by %2$s.', 'ari' ), 'Ari', '<a href="http://www.elmastudio.de/wordpress-themes/">Elmastudio</a>' ); ?> Proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+		<p>All drawings/caricatures on this site and Wordpress theme design by <a href="http://walmik.info">Walmik</a>. <br />  WP responsive framework by <a href="http://www.elmastudio.de/wordpress-themes/">Elmastudio</a></p>
 </div>
 <!--end Footer-->
 
