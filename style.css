@@ -187,7 +187,7 @@ ul.sidebar a, p.meta a, .comment-meta a, p.logged-in-as a, a.post-edit-link, #fo
 	list-style: square !important;
 }
 #content #page ol, #content .post ol {
-	padding:20px 0px 20px 30px;
+	padding:5px 0px 20px 30px;
 }
 #content #page ol li, #content .post ol li {
 	padding:0px 0px 4px 0px;
