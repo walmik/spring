@@ -182,12 +182,12 @@ ul.sidebar a, p.meta a, .comment-meta a, p.logged-in-as a, a.post-edit-link, #fo
 	padding:20px 0px 0px 25px;
 }
 #content #page ul li, #content .post ul li {
-	padding:0px 0px 20px 0px;
+	padding:0px 0px 3px 0px;
 	line-height:21px;
 	list-style: square !important;
 }
 #content #page ol, #content .post ol {
-	padding:20px 0px 0px 30px;
+	padding:20px 0px 20px 30px;
 }
 #content #page ol li, #content .post ol li {
 	padding:0px 0px 20px 0px;
