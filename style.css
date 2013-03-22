@@ -119,7 +119,7 @@ img.aligncenter {
 #content .post h1 {
 	padding:0px 0px 20px 0px;
 	font-size: 22px;
-	line-height:28px;
+	line-height:22px;
 }
 #content h2 {
 	font-size: 30px;
@@ -403,7 +403,7 @@ ul.sidebar li.widget_sociallinks a.delicious {
 #content .post p, #content .page p {
 	padding:0px 0px 15px 0px;
 	font-size: 12px;
-	line-height:28px;
+	line-height:22px;
 	font-family: Trebuchet MS, Lucida Grande, sans-serif;
 }
 #content .post p small {
@@ -432,7 +432,10 @@ ul.sidebar li.widget_sociallinks a.delicious {
 	padding:0px 0px 20px 0px;
 	line-height:20px;
 }
-#content pre, code {
+pre {
+	font-size: 12px;
+}
+.post>pre, .post>code {
 	
 	background-color: #4c4c4c;
 	color: #fff;
@@ -445,19 +448,19 @@ ul.sidebar li.widget_sociallinks a.delicious {
 	float: none;
 	margin: 10px;
 }
-#content table {
+#content>table {
 	margin:10px 0px 30px 0px;
 }
-#content table tr {
+#content>table tr {
 	border-bottom:1px solid #4C4C4C;
 }
-#content table tr th {
+#content>table tr th {
 	padding: 10px 20px 10px 20px;
 	border-top:1px solid #4C4C4C;
 	border-left:1px solid #4C4C4C;
 	border-right:1px solid #4C4C4C;
 }
-#content table tr td {
+#content>table tr td {
 	padding: 10px 20px 10px 20px;
 	border-left:1px solid #4C4C4C;
 	border-right:1px solid #4C4C4C;
