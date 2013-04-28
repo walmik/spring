@@ -14,7 +14,7 @@
 				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 			</ul>
 
-<?php endif; ?>
+<p><a href="http://trackosaur.com"><img src="http://walmik.info/are-you-productive.png"></a></p><?php endif; ?>
 
 </div>
 <!--end Sidebar Secondary-->

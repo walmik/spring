@@ -12,6 +12,13 @@
 	if ( $paged >= 2 || $page >= 2 )
 		echo ' | ' . sprintf( __( 'Page %s', 'ari' ), max( $paged, $page ) );
 	?></title>
+
+	<meta name="description" content="<?php if ( is_single() ) {
+        single_post_title('', true); 
+   	 } else {
+       		 bloginfo('name'); echo " - "; bloginfo('description');
+   	 }
+	    ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
 	<?php if (get_option('ari_dark-style') == 'checked') : ?>
