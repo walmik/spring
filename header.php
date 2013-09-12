@@ -19,6 +19,10 @@
        		 bloginfo('name'); echo " - "; bloginfo('description');
    	 }
 	    ?>" />
+	<meta name="keywords" content="walmik, walmik deshpande, walmik frontend developer, san diego frontend developers, javascript, backbone, jquery, walmik designer, grunt js">
+	<meta name="author" content="Walmik Deshpande">
+        <meta charset="UTF-8">
+        <link rel="canonical" href="http://www.walmik.com" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
 	<?php if (get_option('ari_dark-style') == 'checked') : ?>
@@ -49,16 +53,10 @@
 <div id="wrap" class="clearfix">
 	<div id="sidebar-primary">
 	<div class="logo">
-	<?php if (get_option('ari_logo-image') ) : ?>
-	<a href="<?php echo home_url(); ?>"><img src="<?php echo (get_option('ari_logo-image')) ? get_option('ari_logo-image') : get_template_directory_uri() . '/images/logo.png' ?>" alt="<?php bloginfo('name'); ?>" /></a>
-
-	<?php else : ?>
-
 	<a href="http://walmik.info" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-		<img src="<?php bloginfo('template_directory'); ?>/images/walmik-logo.png" /><br />
+		<h1 id='logo'>Walmik Deshpande Frontend Developer San Diego</h1>
 		<p class='spring-red'><?php bloginfo( 'description' ); ?></p>
 	</a>
-	<?php endif; ?>
 	</div><!--end Logo-->
 	
 	<!-- motif image--><img style="margin-top: 100px;" src="<?php bloginfo('template_directory'); ?>/images/motif.png" />
