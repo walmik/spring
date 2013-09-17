@@ -19,7 +19,7 @@
        		 bloginfo('name'); echo " - "; bloginfo('description');
    	 }
 	    ?>" />
-	<meta name="keywords" content="walmik, walmik deshpande, walmik frontend developer, san diego frontend developers, javascript, backbone, jquery, walmik designer, grunt js">
+	<meta name="keywords" content="walmik, walmik deshpande, walmik frontend developer, san francisco frontend developers, javascript, backbone, jquery, walmik designer, grunt js">
 	<meta name="author" content="Walmik Deshpande">
         <meta charset="UTF-8">
         <link rel="canonical" href="http://www.walmik.com" />
@@ -54,7 +54,7 @@
 	<div id="sidebar-primary">
 	<div class="logo">
 	<a href="http://walmik.info" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-		<h1 id='logo'>Walmik Deshpande Frontend Developer San Diego</h1>
+		<h1 id='logo'>Walmik Deshpande</h1>
 		<p class='spring-red'><?php bloginfo( 'description' ); ?></p>
 	</a>
 	</div><!--end Logo-->
