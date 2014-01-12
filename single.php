@@ -25,7 +25,12 @@
 						</div>
 					</div><!-- end Author Info -->
 		<?php endif; ?>
-						
+
+<!-- tweet -->
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="_walmik" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- /tweet-->
+		
 		<p class="meta">			
 
 				<?php if ( count( get_the_category() ) ) : ?>
@@ -41,10 +46,6 @@
 				<?php endif; ?>
 				<?php comments_popup_link( __( 'Leave a comment', 'ari' ), __( '1 comment', 'ari' ), __( '% comments', 'ari' ) ); ?>
 				<?php edit_post_link( __( 'Edit &rarr;', 'ari' ), '| ', '' ); ?></p>
-<!-- tweet -->
-				<a href="https://twitter.com/share" class="twitter-share-button" data-via="_walmik" data-count="none">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<!-- /tweet-->
 				<?php comments_template( '', true ); ?>
 
 <?php endwhile; // end of the loop. ?>
