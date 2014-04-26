@@ -19,7 +19,7 @@
        		 bloginfo('name'); echo " - "; bloginfo('description');
    	 }
 	    ?>" />
-	<meta name="keywords" content="walmik, walmik deshpande, walmik frontend developer, san francisco frontend developers, javascript, backbone, jquery, walmik designer, grunt js">
+	<meta name="keywords" content="walmik, walmik deshpande, walmik frontend developer, san francisco frontend developers, javascript, backbone, angular js, require js, jquery, walmik designer, grunt js">
 	<meta name="author" content="Walmik Deshpande">
         <meta charset="UTF-8">
         <link rel="canonical" href="http://www.walmik.com" />
@@ -59,7 +59,7 @@
 	</a>
 	</div><!--end Logo-->
 	
-	<!-- motif image--><img style="margin-top: 100px;" src="<?php bloginfo('template_directory'); ?>/images/motif.png" />
+	<!-- motif image--><img style="margin-top: 100px;" src="<?php bloginfo('template_directory'); ?>/images/walmik-longish-hair.png" />
 	
 	<?php //get_sidebar('primary'); ?>
 

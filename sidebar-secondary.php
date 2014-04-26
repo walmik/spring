@@ -6,7 +6,7 @@
 
 <div id="sidebar-secondary">
 <h3>About</h3>
-<p>Walmik is a frontend developer / UX designer. <a href="http://walmik.info">View</a> profile.</p>
+<p>I am a JavaScript programmer with a keen eye for a minimalistic, well thoughtout design.</p>
 <?php
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
 
