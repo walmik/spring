@@ -6,7 +6,7 @@
 
 <div id="sidebar-secondary">
 <h3>About</h3>
-<p>I am a JavaScript programmer with a keen eye for a minimalistic, well thoughtout design.</p>
+<p>I am a JavaScript programmer with a keen eye for design.</p>
 <?php
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
 
