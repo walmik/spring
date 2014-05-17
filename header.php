@@ -57,7 +57,7 @@
 	</a>
 	</div><!--end Logo-->
 	
-	<!-- motif image--><img style="margin-top: 100px;" src="<?php bloginfo('template_directory'); ?>/images/walmik-longish-hair.png" />
+	<!-- motif image--><img style="margin-top: 100px;" src="<?php bloginfo('template_directory'); ?>/images/motif.png" />
 	
 	<?php //get_sidebar('primary'); ?>
 
