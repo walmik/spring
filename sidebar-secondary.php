@@ -6,7 +6,7 @@
 
 <div id="sidebar-secondary">
 <h3>About</h3>
-<p>Node.js hacker @ <a href='http://paypal.com'>PayPal</a>. Creator of <a href='https://github.com/walmik/scribbletune'>Scribbletune</a> & <a href='http://jsterms.com/'>JS Terms</a>. Electronic music nerd. Linux enthusiast.</p>
+<p>Node.js hacker @ <a href='http://paypal.com'>PayPal</a>. Creator of <a href='https://github.com/walmik/scribbletune'>Scribbletune</a> & <a href='http://jsterms.com/'>JS Terms</a>. JavaScript music nerd. Linux enthusiast.</p>
 <?php
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
 
